@@ -13,6 +13,8 @@ public class BlockIChunOre extends Block{
 		super(id, material);
 		setCreativeTab(CreativeTabs.tabDecorations);
 		setHardness(2F);
+		setResistance(3F);
+		setStepSound(Block.soundStoneFootstep);
 		setUnlocalizedName(BlockInfo.ICHUNORE_UNLOCALIZED_NAME);
 	}
 	
@@ -22,4 +24,6 @@ public class BlockIChunOre extends Block{
 		blockIcon = register.registerIcon(BlockInfo.TEXTURE_LOC + ":" + BlockInfo.ICHUNORE_ICONS);
 	}
 	
+	//@Override
+	//public boolean onBlockBreak()
 }

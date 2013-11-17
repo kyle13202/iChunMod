@@ -1,37 +1,28 @@
 /*Items*/
+	/*Materials*/
+	Colorless iChun Ingot - For color editing
+	Red iChun Ingot - The primary iChun colors
+	Yellow iChun Ingot - The primary iChun colors
+	Blue iChun Ingot - The primary iChun colors
+	Green iChun Ingot - The secondary iChun colors
+	Orange iChun Ingot - The secondary iChun colors
+	Purple iChun Ingot - The secondary iChun colors
+	
+	Nyan Essence - Used for tools and awesome stuff(animated texture)
 
-Red iChun Ingot - The primary iChun colors
+	/*Tools*/
 
-Yellow iChun Ingot - The primary iChun colors
-
-Blue iChun Ingot - The primary iChun colors
-
-Green iChun Ingot - The secondary iChun colors
-
-Orange iChun Ingot - The secondary iChun colors
-
-Purple iChun Ingot - The secondary iChun colors
-
-Nyan Essence - Used for tools and awesome stuff(animated texture)
-
-/*Tools*/
-
-Nyan Tools Maybe?
+	Nyan Tools - Maybe?
 
 /*Blocks*/
+	/*World Gen*/
+	Colorless iChun Ore - Smelts into colorless ingot
+	Nyan Ore - Emits particles effects and drops essence
 
-Red iChun Ore - The primary iChun colors
 
-Yellow iChun Ore - The primary iChun colors
-
-Blue iChun Ore - The primary iChun colors
-
-Green iChun Ore - The secondary iChun colors
-
-Orange iChun Ore - The secondary iChun colors
-
-Purple iChun Ore - The secondary iChun colors
-
+	/*Tile Entities*/
+	Color Mixer - Uses nyan essence to color ingots more cheaply
+			
 Nyan Block - Made from essence(also animated)
 
 /*Mobs*/
