@@ -1,11 +1,19 @@
 /*Items*/
 
-
 /*Blocks*/
 
+iChunury - an ore commonly found and can be used to make a silk like liquid
 
 /*Mobs*/
 
+iChun Smartphone - a smartphone device that hops around and beeps all the time
+
+/*Food*/
+
+Giant Steak/Porkchop/Any other food - To feed iChuns hunger
+
+Sandwiches - that make you have rainbow particle effects cause you fart
 
 /*Misc*/
+
 Nyan Cat Tools - when using these tools they rainbow particles splash out. There could also be special affects for each one
