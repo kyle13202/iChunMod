@@ -1,7 +1,5 @@
 /*Items*/
 
-{
-
 Red iChun Ingot - The primary iChun colors
 
 Yellow iChun Ingot - The primary iChun colors
@@ -14,9 +12,19 @@ Orange iChun Ingot - The secondary iChun colors
 
 Purple iChun Ingot - The secondary iChun colors
 
-}
-
 /*Blocks*/
+
+Red iChun Ore - The primary iChun colors
+
+Yellow iChun Ore - The primary iChun colors
+
+Blue iChun Ore - The primary iChun colors
+
+Green iChun Ore - The secondary iChun colors
+
+Orange iChun Ore - The secondary iChun colors
+
+Purple iChun Ore - The secondary iChun colors
 
 /*Mobs*/
 
