@@ -12,6 +12,8 @@ Orange iChun Ingot - The secondary iChun colors
 
 Purple iChun Ingot - The secondary iChun colors
 
+Nyan Essence - Used for tools and awesome stuff(animated texture)
+
 /*Tools*/
 
 Nyan Tools Maybe?
@@ -29,6 +31,8 @@ Green iChun Ore - The secondary iChun colors
 Orange iChun Ore - The secondary iChun colors
 
 Purple iChun Ore - The secondary iChun colors
+
+Nyan Block - Made from essence(also animated)
 
 /*Mobs*/
 
