@@ -2,6 +2,7 @@ package ichunmod;
 
 import ichunmod.config.ConfigHandler;
 import ichunmod.lib.Reference;
+import ichunmod.logger.LogHandler;
 import ichunmod.network.PacketHandler;
 import ichunmod.proxy.CommonProxy;
 import cpw.mods.fml.common.Mod;
@@ -29,12 +30,13 @@ public class iChunMod {
 	@Instance(Reference.MOD_ID)
 	public static iChunMod instance;
 	
-	@SidedProxy(clientSide = "ichunmod.proxy.ClientProxy", serverSide = "ichunmod.proxy.CommonProxy")
+	@SidedProxy(clientSide = Reference.CLIENT_PROXY, serverSide = Reference.COMMON_PROXY)
 	public static CommonProxy proxy;
 	
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event){
+		LogHandler.init();
 		ConfigHandler.init(event.getSuggestedConfigurationFile());
 	}
 	
