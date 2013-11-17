@@ -20,13 +20,13 @@ public enum EnumToolNyan {
 
     public Item customCraftingMaterial = null;
 
-    private EnumToolNyan(int par3, int par4, float par5, float par6, int par7)
+    private EnumToolNyan(int harvest, int durability, float strength, float damage, int enchantabiliy)
     {
-        this.harvestLevel = par3;
-        this.maxUses = par4;
-        this.efficiencyOnProperMaterial = par5;
-        this.damageVsEntity = par6;
-        this.enchantability = par7;
+        this.harvestLevel = harvest;
+        this.maxUses = durability;
+        this.efficiencyOnProperMaterial = strength;
+        this.damageVsEntity = damage;
+        this.enchantability = enchantabiliy;
     }
 
     public int getMaxUses()
