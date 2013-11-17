@@ -12,6 +12,10 @@ Orange iChun Ingot - The secondary iChun colors
 
 Purple iChun Ingot - The secondary iChun colors
 
+/*Tools*/
+
+Nyan Tools Maybe?
+
 /*Blocks*/
 
 Red iChun Ore - The primary iChun colors
