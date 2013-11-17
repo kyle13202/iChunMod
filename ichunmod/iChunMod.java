@@ -1,6 +1,8 @@
 package ichunmod;
 
+import ichunmod.blocks.Blocks;
 import ichunmod.config.ConfigHandler;
+import ichunmod.items.Items;
 import ichunmod.lib.Reference;
 import ichunmod.logger.LogHandler;
 import ichunmod.network.PacketHandler;
@@ -38,6 +40,8 @@ public class iChunMod {
 	public void preInit(FMLPreInitializationEvent event){
 		LogHandler.init();
 		ConfigHandler.init(event.getSuggestedConfigurationFile());
+		Blocks.initBlocks();
+		Items.initItems();
 	}
 	
 	@EventHandler

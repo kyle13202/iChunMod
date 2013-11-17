@@ -59,7 +59,7 @@ public enum EnumToolNyan {
         switch (this)
         {
             case NYAN:
-            	return Blocks.nyan.blockID;
+            	return Blocks.nyanBlock.blockID;
             default:
             	return (customCraftingMaterial == null ? 0 : customCraftingMaterial.itemID);
         }
